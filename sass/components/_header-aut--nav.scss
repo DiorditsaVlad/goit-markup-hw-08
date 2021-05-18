@@ -1,0 +1,27 @@
+.aut-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.aut-nav__item:not(:last-child) {
+    margin-right: 50px;
+}
+.aut-nav__icon {
+    margin-right: 10px;
+}
+.aut-nav__link {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--pr-text-color);
+    padding-top: 31px;
+    padding-bottom: 31px;
+    transition: color 250ms var(--cubik);
+
+    &:hover , &:focus{
+        fill: var(--accent-color);
+    }
+}

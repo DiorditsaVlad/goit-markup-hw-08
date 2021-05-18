@@ -1,0 +1,45 @@
+ul,
+p,
+h1,
+h2,
+h3 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+body {
+    font-family: var(--primary-font);
+    background-color: var(--pr-bg-cl);
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    color: var(--pr-title-color);
+}
+
+.product-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.product-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 250ms var(--cubik);
+
+&:hover,
+&:focus {
+    color: var(--accent-color);
+}
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+

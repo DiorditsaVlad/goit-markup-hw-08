@@ -1,0 +1,24 @@
+.team-icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 32px;
+    margin-bottom: 30px;
+}
+.team-icon__item:not(:last-child) {
+    margin-right: 10px;
+}
+.team-icon__link {
+    display: flex;
+    align-items: center;
+    width: 44px;
+    padding: 12px 12px;
+    border-radius: 50%;
+    fill: var(--icon-cl-pr);
+    transition: background-color 250ms var(--cubik), fill 250ms var(--cubik);
+
+    &:hover, &:focus{
+         background-color: var(--accent-color);
+         fill: var(--pr-wht-color);
+    }
+}

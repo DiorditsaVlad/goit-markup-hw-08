@@ -1,0 +1,22 @@
+.form-modal__icon-checkbox {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    transition: background-color 250ms var(--cubik),
+        border-color 250ms var(--cubik);
+    border-radius: 4px;
+    border: 2px solid var(--pr-title-color);
+
+    margin-right: 8px;
+}
+.form-modal__checkbox {
+    transition: background-color 250ms var(--cubik), border-color 250ms var(--cubik);
+
+    &:checked + .form-modal__icon-checkbox {
+        background-color: var(--accent-color);
+        border-color: var(--accent-color);
+        background-image: url(../images/icon.svg/check.svg);
+        background-size: contain;
+        background-origin: border-box;
+    }
+}

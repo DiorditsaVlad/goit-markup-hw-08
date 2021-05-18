@@ -1,0 +1,25 @@
+.task-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.task-list__item {
+    flex-basis: calc((100% - 30px * 4) / 4);
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+.task-list__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 25px;
+}
+.task-list__text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--pr-text-color);
+    margin: 0;
+    padding: 0;
+}

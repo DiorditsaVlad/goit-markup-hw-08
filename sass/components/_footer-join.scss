@@ -1,0 +1,35 @@
+.footer-join {
+    margin-left: 60px;
+}
+.footer-join__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--pr-wht-color);
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 12px;
+}
+.footer-icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer-icon__item:not(:last-child) {
+    margin-right: 10px;
+}
+.footer-icon__link {
+    display: flex;
+    align-items: center;
+    width: 44px;
+    padding: 12px 12px;
+    border-radius: 50%;
+    fill: var(--pr-wht-color);
+    background: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms var(--cubik);
+
+    &:hover, &:focus{
+        background-color: var(--accent-color);
+    }
+}

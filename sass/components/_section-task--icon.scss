@@ -1,0 +1,25 @@
+%icon-before{
+     content: '';
+     background: var(--icon-bg-cl);
+     border-radius: 4px;
+     background-position: center;
+     background-repeat: no-repeat;
+     display: block;
+     height: 120px;
+     margin-bottom: 30px;
+}
+.task-list__icon--antena::before {
+    @extend %icon-before;
+    background-image: url(../images/icon.svg/antenna.svg);
+}
+.task-list__icon--clock::before {
+     @extend %icon-before;
+    background-image: url(../images/icon.svg/clock.svg);
+}
+.task-list__icon--diagram::before {
+     @extend %icon-before;
+    background-image: url(../images/icon.svg/diagram.svg);
+}
+.task-list__icon--astronavt::before {
+    @extend %icon-before;
+    background-image: url(../images/icon.svg/astronaut.svg);}
