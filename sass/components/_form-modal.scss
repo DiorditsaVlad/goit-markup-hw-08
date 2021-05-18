@@ -1,5 +1,11 @@
 .form-modal {
-    width: 428px;
+    // width: 448px;
+     @media screen and (max-width:1199px) {
+         width: 370px;
+     }
+     @media screen and (min-width:1200px) {
+         width: 448px;
+     }
     margin-left: auto;
     margin-right: auto;
 }
@@ -35,12 +41,12 @@
     }
 }
 .form-modal__group--size {
-    width: 448px;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-top: 12px;
     padding-left: 16px;
+    margin-top: 20px;
     
     &::placeholder {
         font-size: 12px;
@@ -52,9 +58,16 @@
 .form-modal__condition {
     display: flex;
     align-items: center;
-    font-size: 14px;
-    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--pr-text-color);
+    @media screen and (max-width:1199px){
+        font-size: 12px;
+        line-height: 1.16;
+    }
+     @media screen and (min-height:1200px) {
+        font-size: 14px;
+        line-height: 1.71;
+     }
 }
 .form-modal__button {
     display: block;

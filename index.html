@@ -66,7 +66,7 @@
     <main>
       <section class="section-hero">
         <div class="container section-hero--size">
-          <h1 class="section-hero__title">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="section-hero__title">Эффективные решения<br> для вашего бизнеса</h1>
           <button data-modal-open type="button" class="product-button">
             Заказать услугу
           </button>
@@ -326,13 +326,13 @@
           </ul>
         </div>
       </section>
-    </main> -->
+    </main> 
 
     <!--подвал-->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
-        <div>
-          <a class="logo" href="./index.html"
+        <div class="footer__block">
+          <a class="logo logo-footer" href="./index.html"
             ><span class="logo__name">Web</span><span class="logo__name--color">Studio</span></a
           >
           <address class="footer__address">
@@ -394,17 +394,17 @@
               name="email"
               autocomplete="off"
             />
-             <button type="submit" class="product-button form-footer__button">
+            <button type="submit" class="product-button form-footer__button">
             Подписаться
             <svg class="form-footer__icon" width="24" height="24">
               <use href="./images/symbol-defs.svg#icon-send"></use>
             </svg>
           </button>
           </form>
-         
+          
         </div>
       </div>
-    </footer> -->
+    </footer> 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
@@ -461,8 +461,8 @@
           <label class="form-modal__condition">
             <input type="checkbox" name="condition" value="condition" class="form-modal__checkbox visually-hidden"/>
             <span class="form-modal__icon-checkbox"></span>
-            Соглашаюсь с рассылкой и принимаю
-            <a href="#" class="form-modal__link">Условия договора</a>
+            <p>Соглашаюсь с рассылкой и принимаю <a href="#" class="form-modal__link">Условия договора</a></p>
+            
           </label>
           <button type="submit" class="product-button form-modal__button">Отправить</button>
         </form>

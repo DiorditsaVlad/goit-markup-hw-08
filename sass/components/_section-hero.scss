@@ -16,15 +16,18 @@
 }
 .section-hero__title {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
   text-transform: uppercase;
   color: var(--pr-wht-color);
-  margin: 0;
   margin-bottom: 30px;
   padding-top: 200px;
+  text-align: center;
+  // font-size: 44px;
+  // line-height: 1.36;
+  @media screen and(max-width:1199px){
+    font-size: 26px;
+    line-height: 1.62;
+  }
 }
 .section-hero--size {
   height: 600px;
