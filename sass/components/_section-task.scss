@@ -1,13 +1,22 @@
 .task-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-.task-list__item {
-    flex-basis: calc((100% - 30px * 4) / 4);
-    &:not(:last-child) {
-        margin-right: 30px;
+    @media screen and (min-width:768px){
+        display: flex;
+        flex-wrap: wrap;
     }
 }
+.task-list__item {
+        
+        @media screen and (min-width:768px){
+            flex-basis: calc((100% - 30px * 2) / 2);}
+             &:not(:last-child) {
+                   margin-right: 30px;
+        }
+        @media screen and (min-width:1200px){
+            flex-basis: calc((100% - 30px * 4) / 4);}
+            &:not(:last-child) {
+                margin-right: 30px
+        }
+    }
 .task-list__title {
     font-weight: 700;
     font-size: 14px;
@@ -15,6 +24,9 @@
     text-transform: uppercase;
     margin: 0;
     padding-bottom: 25px;
+    @media screen and (max-width:768px){
+        text-align: center;
+    }
 }
 .task-list__text {
     font-size: 14px;

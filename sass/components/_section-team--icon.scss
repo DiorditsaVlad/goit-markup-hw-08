@@ -1,9 +1,15 @@
 .team-icon {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    margin-left: 32px;
-    margin-bottom: 30px;
+     justify-content: center;
+     padding-bottom: 24px;
+    // align-items: center;
+    // margin-left: 32px;
+    
+    @media screen and (max-width:480px){
+       
+
+    }
 }
 .team-icon__item:not(:last-child) {
     margin-right: 10px;
