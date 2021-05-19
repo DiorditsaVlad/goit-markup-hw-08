@@ -18,14 +18,24 @@
   </head>
   <body>
     <!--голова-->
-    <!-- <!-- <header class="header"> -->
+    <header class="header"> 
       <!--главаная навигация-->
-      <!-- <div class="container header-container">
+      <div class="container header-container">
+         <a class="logo" href="./index.html"
+            ><span class="logo__name">Web</span><span>Studio</span></a>
         <nav class="header-nav">
-          <a class="logo" href="./index.html"
-            ><span class="logo__name">Web</span><span>Studio</span></a
-          >
-          <ul class="site-nav">
+         
+            
+          <button type="button" class="menu-button is-open" data-menu-button aria-label="Переключатель мобильного меню"
+           aria-expanded="false">
+            <svg width="24" height="16">
+              <use class="icon-cross "href="./images/symbol-defs.svg#icon-cross"></use>
+              <use class="icon-menu"href="./images/symbol-defs.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <div class="menu-container" id="menu-container" data-menu>
+            <div class="navigation">
+              <ul class="site-nav">
             <li class="site-nav__item">
               <a class="product-link site-nav__link site-nav__link--active" href="./index.html"
                 ><span class="site-nav__link--after">Студия</span></a
@@ -38,9 +48,9 @@
               <a class="product-link site-nav__link" href="#">Контакты</a>
             </li>
           </ul>
-        </nav>
-        <div class="header-container header-container--left">
-          <ul class="aut-nav">
+            </div>
+            <div class="contact-info">
+               <ul class="aut-nav">
             <li class="aut-nav__item">
               <a class="product-link aut-nav__link" href="mailto:info@devstudio.com"
                 ><svg class="aut-nav__icon" width="16" height="12">
@@ -58,10 +68,15 @@
                 >+38 096 111 11 11</a
               >
             </li>
-          </ul>
+          </ul> 
+            </div>
+          </div>
+        </nav>
+        <div class="header-container header-container--left">
+          
         </div>
       </div>
-    </header> --> 
+    </header> 
 
     <main>
       <section class="section-hero">
