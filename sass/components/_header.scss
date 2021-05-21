@@ -1,19 +1,10 @@
 .header {
   border-bottom: 1px solid #ececec;
 }
-// .header-nav {
-//   margin-left: auto;
-  
-
-
-//   // align-items: center;
-// }
 .header-container {
-  // display: inline-flex;
-  // align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 
  position: relative;
-}
-.header-container--left {
-  // margin-left: auto;
 }
