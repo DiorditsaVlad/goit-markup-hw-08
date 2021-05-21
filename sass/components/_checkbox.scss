@@ -1,7 +1,7 @@
 .form-modal__icon-checkbox {
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    min-width: 15px;
+    min-height: 15px;
     transition: background-color 250ms var(--cubik),
         border-color 250ms var(--cubik);
     border-radius: 4px;
