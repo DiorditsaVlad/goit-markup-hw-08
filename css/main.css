@@ -93,6 +93,16 @@ body {
   overflow: hidden;
 }
 
+.menu-button {
+  outline: none;
+}
+
+.menu-button:focus {
+  fill: var(--accent-color);
+  -webkit-transition: fill 250ms var(--cubik);
+  transition: fill 250ms var(--cubik);
+}
+
 @media screen and (max-width: 767px) {
   .menu-button {
     display: -webkit-inline-box;

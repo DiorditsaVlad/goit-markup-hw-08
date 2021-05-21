@@ -1,7 +1,9 @@
 .menu-button{
-  
-    
-    
+    outline: none;
+     &:focus {
+         fill: var(--accent-color);
+          transition: fill 250ms var(--cubik);
+     }
     @media screen and (max-width:767px) {
         display: inline-flex;
         margin: 0;
@@ -30,19 +32,15 @@
 .menu-container{
     @media screen and (max-width:767px){
 display: none;
-
 position:absolute;
 top: 0;
 left: 0;
 max-height: 796px;
 width: 100%;
 
-
 background-color: var(--pr-wht-color);
-
 &.is-open {
     display: block;
-
 }
     }
 }
