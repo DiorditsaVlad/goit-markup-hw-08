@@ -370,6 +370,17 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .aut-nav__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .aut-nav__link--active {
     color: var(--accent-color);
