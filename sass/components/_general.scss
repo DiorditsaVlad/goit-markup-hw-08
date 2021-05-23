@@ -11,6 +11,8 @@ h3
 
 img {
     display: block;
+    height: auto;
+    max-width: 100%;
 }
 body {
     font-family: var(--primary-font);
