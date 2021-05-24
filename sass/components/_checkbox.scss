@@ -10,6 +10,7 @@
     margin-right: 8px;
 }
 .form-modal__checkbox {
+   
     transition: background-color 250ms var(--cubik), border-color 250ms var(--cubik);
 
     &:checked + .form-modal__icon-checkbox {
@@ -19,4 +20,10 @@
         background-size: contain;
         background-origin: border-box;
     }
+}
+.form-modal__inline{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--pr-text-color);
 }
