@@ -1,19 +1,54 @@
 .section-hero {
-  background-color: var(--secondary-bg-cl);
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/hero.jpg);
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
-  background-position: center;
-  background-repeat: no-repeat;
-}
+  background-image: linear-gradient(to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      @media screen and (max-width:767px) {
+      
+         background-image: url(../../images/hero/hero-mobile-min.jpg);
+
+
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+          .section-hero {
+            background-image: url("../../images/hero/hero-mobile@2x.jpg");
+          }
+        }
+      }
+      @media screen and (min-width:768px) {
+       background-image: url(../../images/hero/hero-tablet-min.jpg);
+
+
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+          .section-hero {
+            background-image: url("../../images/hero/hero-tablet@2x-min.jpg");
+          }
+        }
+      }
+    @media screen and (min-width:1200px){
+background-image: url(../../images/hero/hero-desktop.jpg);
+
+  
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .section-hero{
+    background-image: url("../../images/hero/hero-desktop@2x-min.jpg");
+  }}
+  }
+  }
 .section-hero__title {
   font-weight: 900;
   letter-spacing: 0.06em;
@@ -23,7 +58,6 @@
   padding-top: 200px;
   text-align: center;
  
-
   @media screen and(max-width:1199px){
     font-size: 26px;
     line-height: 1.62;
