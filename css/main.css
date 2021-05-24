@@ -448,7 +448,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .section-hero {
-    background-image: url(../../images/hero/hero-mobile-min.jpg);
+    background-image: url("../../images/hero/hero-mobile-min.jpg");
   }
 }
 
@@ -460,7 +460,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .section-hero {
-    background-image: url(../../images/hero/hero-tablet-min.jpg);
+    background-image: url("../../images/hero/hero-tablet-min.jpg");
   }
 }
 
@@ -472,7 +472,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .section-hero {
-    background-image: url(../../images/hero/hero-desktop.jpg);
+    background-image: url("../../images/hero/hero-desktop.jpg");
   }
 }
 

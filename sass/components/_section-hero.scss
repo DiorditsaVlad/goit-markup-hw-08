@@ -11,7 +11,7 @@
     background-size: cover;
       @media screen and (max-width:767px) {
       
-         background-image: url(../../images/hero/hero-mobile-min.jpg);
+         background-image: url("../../images/hero/hero-mobile-min.jpg");
 
 
         @media (min-device-pixel-ratio: 2),
@@ -24,7 +24,7 @@
         }
       }
       @media screen and (min-width:768px) {
-       background-image: url(../../images/hero/hero-tablet-min.jpg);
+       background-image: url("../../images/hero/hero-tablet-min.jpg");
 
 
         @media (min-device-pixel-ratio: 2),
@@ -36,7 +36,7 @@
         }
       }
     @media screen and (min-width:1200px){
-background-image: url(../../images/hero/hero-desktop.jpg);
+background-image: url("../../images/hero/hero-desktop.jpg");
 
   
 @media (min-device-pixel-ratio: 2),
