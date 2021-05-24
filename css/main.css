@@ -344,9 +344,23 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .aut-nav__icon {
+    width: 14px;
+    height: 10px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .aut-nav__icon {
     margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .aut-nav__icon--size {
+    width: 10px;
+    height: 14px;
   }
 }
 

@@ -37,13 +37,23 @@
     @media screen and (max-width:767px){
     display: none;
     }
+    @media screen and (min-width:768px) and (max-width:1199px){
+        width: 14px;
+        height: 10px;
+    }
      @media screen and (min-width:768px){
     margin-right: 10px;
+    
      } 
+}
+.aut-nav__icon--size{
+     @media screen and (min-width:768px) and (max-width:1199px) {
+         width: 10px;
+         height: 14px;
+     }
 }
 
 .aut-nav__link {
-    // align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -67,10 +77,6 @@
     }
 
 }
-
-//   padding-top: 32px;
-//   padding-bottom: 31px;
-
 .aut-nav__link--active{
     @media screen and (max-width:767px){
     

@@ -50,8 +50,8 @@
                <ul class="aut-nav">
                  <li class="aut-nav__item">
               <a class="product-link aut-nav__link aut-nav__link--active" href="tell:+380961111111">
-                <svg class="aut-nav__icon" width="10" height="16">
-                  <use
+                <svg class="aut-nav__icon aut-nav__icon--size" width="10" height="16">
+                  <use 
                     href="./images/symbol-defs.svg#icon-smartphone"
                   ></use></svg
                 >+38 096 111 11 11</a
@@ -130,15 +130,21 @@
           <h2 class="section-features__title">Чем мы занимаемся</h2>
           <ul class="features-list">
             <li class="features-list__item">
-              <img src="./images/box1.jpg" alt="Example1" width="370" />
+              <img 
+              srcset="./images/box/box-desktop1.jpg 1x, ./images/box/box-desktop1@2x-min.jpg 2x"
+              src="./images/box/box-desktop1.jpg" alt="Example1" width="370" />
               <p class="features-list__text">Десктопные приложения</p>
             </li>
             <li class="features-list__item">
-              <img src="./images/box2.jpg" alt="Example2" width="370" />
+              <img 
+                srcset="./images/box/box-desktop2.jpg 1x, ./images/box/box-desktop2@2x-min.jpg 2x"
+              src="./images/box/box-desktop2.jpg" alt="Example2" width="370" />
               <p class="features-list__text">Мобильные приложения</p>
             </li>
             <li class="features-list__item">
-              <img src="./images/box3.jpg" alt="Example3" width="370" />
+              <img 
+                srcset="./images/box/box-desktop3.jpg 1x, ./images/box/box-desktop3@2x-min.jpg 2x"
+              src="./images/box/box-desktop3.jpg" alt="Example3" width="370" />
               <p class="features-list__text">Дизайнерские решения</p>
             </li>
           </ul>
@@ -149,7 +155,15 @@
           <h2 class="section-team__title">Наша команда</h2>
           <ul class="team-list">
             <li class="team-list__item">
-              <img src="./images/img4.jpg" alt="worker1" width="100%" />
+             <picture>
+                <source srcset="./images/team/team-desktop4-min.jpg 1x, ./images/team/team-desktop4@2x-min.jpg 2x"
+               media="(min-width: 1200px)">
+                 <source srcset="./images/team/team-tablet4-min.jpg 1x, ./images/team/team-tablet4@2x-min.jpg 2x"
+               media="(min-width: 768px)">
+               <source srcset="./images/team/team-mobile4-min.jpg 1x, ./images/team/team-mobile4@2x-min.jpg 2x"
+               media="(max-width: 767px)">
+                <img src="./images/team/team-desktop4.jpg" alt="worker1"  />
+             </picture>
               <h3 class="team-list__person">Игорь Демьяненко</h3>
               <p class="team-list__profession">Product Designer</p>
               <ul class="team-icon">
@@ -185,7 +199,15 @@
             </li>
 
             <li class="team-list__item">
-              <img src="./images/img2.jpg" alt="worker2" width="100%" />
+             <picture>
+               <source srcset="./images/team/team-desktop2-min.jpg 1x, ./images/team/team-desktop2@2x-min.jpg 2x"
+               media="(min-width: 1200px)">
+                 <source srcset="./images/team/team-tablet2-min.jpg 1x, ./images/team/team-tablet2@2x-min.jpg 2x"
+               media="(min-width: 768px)"> 
+               <source srcset="./images/team/team-mobile2-min.jpg 1x, ./images/team/team-mobile2@2x-min.jpg 2x"
+               media="(max-width: 767px)">    
+                <img src="./images/team/team-desktop2.jpg" alt="worker2"  />
+             </picture>
               <h3 class="team-list__person">Ольга Репина</h3>
               <p class="team-list__profession">Frontend Developer</p>
               <ul class="team-icon">
@@ -221,7 +243,15 @@
             </li>
 
             <li class="team-list__item">
-              <img src="./images/img3.jpg" alt="worker3" width="100%" />
+               <picture>
+                   <source srcset="./images/team/team-desktop3-min.jpg 1x, ./images/team/team-desktop3@2x-min.jpg 2x"
+               media="(min-width: 1200px)">
+               <source srcset="./images/team/team-tablet3-min.jpg 1x, ./images/team/team-tablet3@2x-min.jpg 2x"
+               media="(min-width: 768px)">
+               <source srcset="./images/team/team-mobile3-min.jpg 1x, ./images/team/team-mobile3@2x-min.jpg 2x"
+               media="(max-width: 767px)">
+                  <img src="./images/team/team-desktop3.jpg" alt="worker3"  />
+             </picture>
               <h3 class="team-list__person">Николай Тарасов</h3>
               <p class="team-list__profession">Marketing</p>
               <ul class="team-icon">
@@ -257,7 +287,17 @@
             </li>
 
             <li class="team-list__item">
-              <img src="./images/img1.jpg" alt="worker4" width="100%" />
+               <picture>
+                       <source srcset="./images/team/team-desktop1-min.jpg 1x, ./images/team/team-desktop1@2x-min.jpg 2x"
+               media="(min-width: 1200px)" >
+                 <source srcset="./images/team/team-tablet1-min.jpg 1x, ./images/team/team-tablet1@2x-min.jpg 2x"
+               media="(min-width: 768px)">
+               <source srcset="./images/team/team-mobile1-min.jpg 1x, ./images/team/team-mobile1@2x-min.jpg 2x"
+               media="(max-width: 767px)" >
+              
+          
+                <img src="./images/team/team-desktop1.jpg" alt="worker4"  />
+             </picture>
               <h3 class="team-list__person">Михаил Ермаков</h3>
               <p class="team-list__profession">UI Designer</p>
               <ul class="team-icon">
