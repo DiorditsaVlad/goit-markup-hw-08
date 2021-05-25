@@ -1517,9 +1517,6 @@ body {
   .list-cards__item:nth-last-child(-n + 2) {
     margin-bottom: 0;
   }
-  .list-cards__item:nth-child(-n + 2) {
-    height: 440px;
-  }
   .list-cards__item:nth-child(2n) {
     margin-right: 0;
   }
