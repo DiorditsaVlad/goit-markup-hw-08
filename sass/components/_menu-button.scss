@@ -1,5 +1,5 @@
 .menu-button{
-    z-index: 2;
+    z-index: 3;
     outline: none;
      &:focus {
          fill: var(--accent-color);
@@ -39,6 +39,7 @@ left: 0;
 max-height: 796px;
 width: 100%;
 
+z-index: 2;
 background-color: var(--pr-wht-color);
 &.is-open {
     display: block;
