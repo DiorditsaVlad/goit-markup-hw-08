@@ -1,7 +1,5 @@
 .aut-nav {
-   
-    // flex-wrap: wrap;
-    // align-items: center;
+
     @media screen and (max-width:767px){
     margin-bottom: 64px;
     margin-left: 40px;
@@ -17,7 +15,6 @@
    }
 }
 .aut-nav__item:not(:last-child) {
-    // margin-right: 50px;
      @media screen and (max-width:767px){
            padding-bottom: 32px;
      }
